@@ -13,9 +13,9 @@
 
 <body>
     <div class="container">
-        <div class="border border-5">
+        <div class="box">
             <form id="divizinha" class="row g-3">
-                <legend><b>Formulario cliente</b></legend>
+                <legend style="align-items: center;"><b>Formulario cliente</b></legend>
                 <div class="col-md-6">
                     <label for="text">Nome completo</label>
                     <input type="text" class="form-control" name="nome" placeholder="Digite nome completo" id="name" required>
@@ -66,12 +66,13 @@
                     <input type="tel" class="form-control" name="telefone" id="telefone" placeholder="Digite seu número de telefone" required>
                 </div>
                 <br>
+                
                 <div class="row g-3">
                     <div class="cep">
                         <label for="number">CEP</label>
                         <input type="number" class="form-control" name="cep" id="cep" placeholder="Digite seu CEP" required>
-                    </div>
-                    <br>
+                </div>
+                <br>
                     <div class="row g-3">
                         <label for="inputState" class="form-label">UF</label>
                         <select id="inputState" class="form-select">
@@ -105,26 +106,26 @@
                         <option>Tocantins</option>
                         </select>
                     </div>
-                    <br>
-                    <div class="col-md-4">
-                        <label for="cidade">Cidade</label>
-                        <input type="text" class="form-control" name="cidade" id="cidade" placeholder="Digite sua cidade" required>
-                    </div>
-                    <br>
-                    <div class="col-md-4">
-                        <label for="rua">Logradouro</label>
-                        <input type="text" class="form-control" name="rua" id="rua" placeholder="Digite sua rua" required>
-                    </div>
-                    <br>
-                    <div class="col-md-4">
-                        <label for="number">Nº</label>
-                        <input type="number" class="form-control" name="numero" id="numero" placeholder="Número residencial" required>
-                    </div>
-                    <br>
-                    <div class="col-12">
-                        <button type="submit" class="btn btn-primary">Enviar</button>
-                    </div>
-                    <br>
+                <br>
+                <div class="col-md-4">
+                    <label for="cidade">Cidade</label>
+                    <input type="text" class="form-control" name="cidade" id="cidade" placeholder="Digite sua cidade" required>
+                </div>
+                <br>
+                <div class="col-md-4">
+                    <label for="rua">Logradouro</label>
+                    <input type="text" class="form-control" name="rua" id="rua" placeholder="Digite sua rua" required>
+                </div>
+                <br>
+                <div class="col-md-4">
+                    <label for="number">Nº</label>
+                    <input type="number" class="form-control" name="numero" id="numero" placeholder="Número residencial" required>
+                </div>
+                <br>
+                <div class="col-12">
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                </div>
+                <br>
                 </div>
             </form> 
         </div>
