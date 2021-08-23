@@ -8,26 +8,25 @@
     <title>Formulario</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
-    <link rel="stylesheet" href="../form.css">
+    <link rel="stylesheet" href="../css/form.css">
 </head>
 
 <body>
     <div class="container">
         <div class="box">
-            <form id="divizinha" class="row g-3">
-                <legend style="align-items: center;"><b>Formulario cliente</b></legend>
+            <form  class="row g-3">
+                <p>Formulario cliente</p>
                 <div class="col-md-6">
                     <label for="text">Nome completo</label>
                     <input type="text" class="form-control" name="nome" placeholder="Digite nome completo" id="name" required>
                 </div>
                     <br>
                     <div class="col-md-6">
-                        <label for="inputGener" class="form-label">Gênero</label>
-                        <select id="inputGener" class="form-select">
-                        <option selected>Escolha um gênero</option>
-                        <option>Feminino</option>
-                        <option>Masculino</option>
-                        <option>Outro</option>
+                        <label for="genero">Gênero</label>
+                        <select class="form-select" aria-label="Default select example">
+                        <option value="1">Feminino</option>
+                        <option value="2">Masculino</option>
+                        <option value="3">Outros</option>
                         </select>
                     </div>
                     <br>
@@ -65,47 +64,16 @@
                     <label for="telefone">Telefone</label>
                     <input type="tel" class="form-control" name="telefone" id="telefone" placeholder="Digite seu número de telefone" required>
                 </div>
-                <br>
-                
                 <div class="row g-3">
-                    <div class="cep">
-                        <label for="number">CEP</label>
-                        <input type="number" class="form-control" name="cep" id="cep" placeholder="Digite seu CEP" required>
+                    <p style="font-size: 30px;">Endereço</p>
+                    <label for="number">CEP</label>
+                    <input type="number" class="form-control" name="cep" id="cep" placeholder="Digite seu CEP" required>
                 </div>
                 <br>
-                    <div class="row g-3">
-                        <label for="inputState" class="form-label">UF</label>
-                        <select id="inputState" class="form-select">
-                        <option selected>Escolha um estado</option>
-                        <option>Acre</option>
-                        <option>Alagoas</option>
-                        <option>Amapá</option>
-                        <option>Amazonas</option>
-                        <option>Bahia</option>
-                        <option>Distriro Federal</option>
-                        <option>Ceará</option>
-                        <option>Espírito Santo</option>
-                        <option>Goiás</option>
-                        <option>Maranhão</option>
-                        <option>Mato Grosso</option>
-                        <option>Mato Grosso do Sul</option>
-                        <option>Minas Gerais</option>
-                        <option>Pará</option>
-                        <option>Paraíba</option>
-                        <option>Paraná</option>
-                        <option>Pernambuco</option>
-                        <option>Piauí</option>
-                        <option>Rio de Janeiro</option>
-                        <option>Rio Grande do Norte</option>
-                        <option>Rio Grande do Sul</option>
-                        <option>Rondônia</option>
-                        <option>Roraima</option>
-                        <option>Santa Catarina</option>
-                        <option>São Paulo</option>
-                        <option>Sergipe</option>
-                        <option>Tocantins</option>
-                        </select>
-                    </div>
+                <div class="row g-3">
+                    <label for="text">UF</label>
+                    <input type="text" class="form-control" id="uf" placeholder="Digite seu estado" required>            
+                </div>
                 <br>
                 <div class="col-md-4">
                     <label for="cidade">Cidade</label>
@@ -122,8 +90,8 @@
                     <input type="number" class="form-control" name="numero" id="numero" placeholder="Número residencial" required>
                 </div>
                 <br>
-                <div class="col-12">
-                    <button type="submit" class="btn btn-primary">Enviar</button>
+                <div class="d-grid gap-2 col-6 mx-auto">
+                    <button type="submit" style="border-radius: 30px;" class="btn btn-primary">Enviar</button>
                 </div>
                 <br>
                 </div>

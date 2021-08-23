@@ -1,15 +1,22 @@
-body {
-    background: #ffff;
-}
-
-
-
-* {
-    margin: 0px;
-    padding: 0;
-}
-
-#divizinha{
+body{
+    background: #D3D3D3;
     margin-left: 10px;
     margin-right: 10px;
+    margin-top: 50px;
+}
+
+p{
+    margin-top: 10px;
+    margin-bottom: 25px;
+    text-align: center;
+    font-size: 50px;
+}
+
+.container{
+    background-color: #fff;
+    border-radius: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
