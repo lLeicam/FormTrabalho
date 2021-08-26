@@ -1,5 +1,7 @@
 body{
-    background: #D3D3D3;
+    background-image: url("../img/img1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     margin-left: 400px;
     margin-right: 400px;
     margin-top: 50px;

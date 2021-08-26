@@ -1,0 +1,13 @@
+.carrosel{
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+p {
+    margin-top: 10px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 50px;
+}
