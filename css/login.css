@@ -7,6 +7,10 @@ body{
     margin-top: 50px;
 }
 
+.logo{
+    width: 140px;
+}
+
 p{
     margin-top: 10px;
     margin-bottom: 50px;
@@ -21,4 +25,5 @@ p{
     padding-right: 30px;
     padding-top: 10px;
     padding-bottom: 10px;
+    
 }
