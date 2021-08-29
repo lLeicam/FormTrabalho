@@ -18,7 +18,6 @@ function validar(){
         alert('As senhas não correspondem')
     }
 
-
 }
 
 function mascaraCEP(){
