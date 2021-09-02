@@ -36,4 +36,6 @@ function mascaraCPF(){
     } else if(cpf.value.length == 11){
         cpf.value += "-"
     }
+
+    
 }
