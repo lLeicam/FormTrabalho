@@ -14,7 +14,7 @@
 <body>
     <div class="container">
         <div class="box">
-            <form  class="row g-3">
+            <form  class="row g-3" method="post" action="../php/cadastrar.php">
                 <p>Formulario cliente</p>
                 <div class="col-md-6">
                     <label for="text">Nome completo</label>
@@ -22,12 +22,8 @@
                 </div>
                     <br>
                     <div class="col-md-6">
-                        <label for="genero">Gênero</label>
-                        <select class="form-select" aria-label="Default select example">
-                        <option value="1">Feminino</option>
-                        <option value="2">Masculino</option>
-                        <option value="3">Outros</option>
-                        </select>
+                    <label for="genero">Gênero</label>
+                    <input type="text" class="form-control" name="genero" placeholder="Digite seu gênero" id="genero" required>
                     </div>
                     <br>
                 <div class="col-md-6">
@@ -73,7 +69,7 @@
                 <br>
                 <div class="col-md-6">
                     <label for="text">UF</label>
-                    <input type="text" class="form-control" id="uf" placeholder="Digite seu estado" required>            
+                    <input type="text" class="form-control" name="uf" id="uf" placeholder="Digite seu estado" required>            
                 </div>
                 <br>
                 <div class="col-md-6">
@@ -83,7 +79,7 @@
                 <br>
                 <div class="col-md-6">
                     <label for="rua">Logradouro</label>
-                    <input type="text" class="form-control" name="rua" id="rua" placeholder="Digite sua rua" required>
+                    <input type="text" class="form-control" name="logradouro" id="rua" placeholder="Digite sua rua" required>
                 </div>
                 <br>
                 <div class="col-md-6">
